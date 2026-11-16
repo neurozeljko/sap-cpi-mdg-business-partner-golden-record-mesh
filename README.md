@@ -52,6 +52,10 @@ flowchart LR
     C -.->|Runtime Fault / Malformed JSON| G
 ```
 
+### SAP Cloud Integration (CPI) BPMN2 Implementation
+
+![SAP CPI BPMN2 Integration Flow](docs/images/iflow-bpmn2-diagram.png)
+
 ---
 
 ## Core Architectural Capabilities
@@ -185,8 +189,10 @@ sap-cpi-mdg-business-partner-golden-record-mesh/
 ├── artifacts/
 │   └── IFlow_MDG_BusinessPartner_GoldenRecord_Validator.zip   # Exported SAP CPI BPMN2 iFlow package
 ├── docs/
-│   └── adr/
-│       └── 001-golden-record-deduplication-and-sanctions-gate.md
+│   ├── adr/
+│   │   └── 001-golden-record-deduplication-and-sanctions-gate.md
+│   └── images/
+│       └── iflow-bpmn2-diagram.png                            # SAP CPI BPMN2 flow screenshot
 ├── src/
 │   ├── main/
 │   │   └── groovy/
